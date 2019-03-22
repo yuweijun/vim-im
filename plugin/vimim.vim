@@ -1215,8 +1215,6 @@ let s:VimIM += [" ====  core driver      ==== {{{"]
 function! s:vimim_plug_and_play()
     nnoremap <silent> <C-_> a<C-R>=g:Vimim_chinese()<CR>
     inoremap <unique> <C-_>  <C-R>=g:Vimim_chinese()<CR>
-    imap <C-Space> <C-_>
-    nmap <C-Space> <C-_>
 endfunction
 
 sil!call s:vimim_initialize_global()
